@@ -1,0 +1,2 @@
+C:\Users\Trevor Tang\source\repos\CPlusPlus-Stuff\BrickWall\x64\Debug\BrickWall.exe
+C:\Users\Trevor Tang\source\repos\CPlusPlus-Stuff\BrickWall\x64\Debug\BrickWall.pdb
