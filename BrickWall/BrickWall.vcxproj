@@ -116,12 +116,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Trevor Tang\source\repos\CPlusPlus-Stuff\BrickWall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Trevor Tang\source\repos\Brick-Wall\BrickWall;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Trevor Tang\source\repos\CPlusPlus-Stuff\BrickWall</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Trevor Tang\source\repos\Brick-Wall\BrickWall</AdditionalLibraryDirectories>
       <AdditionalDependencies>opencv_world411d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

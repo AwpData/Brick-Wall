@@ -94,7 +94,7 @@ int main()
 	waitKey();
 }
 
-// ------ HELPER FUNCTIONS -------- //
+// ------ MY FUNCTIONS -------- //
 
 // Draws a brick at (xpos, ypos)
 void drawBrick(int& xpos, int ypos) {
