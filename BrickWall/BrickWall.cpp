@@ -4,9 +4,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <opencv2/core/core.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
-#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/highgui.hpp>
 
 using namespace cv;
 using namespace std;
