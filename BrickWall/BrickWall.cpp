@@ -34,21 +34,18 @@ void pointLeft();
 void pointUp();
 void pointDown();
 
-// 
+// ---------------- GIVEN METHODS ---------------- // 
+
 // Must be called in main() before any other drawing function
-//
 void init()
 {
 	imshow(wndname, image); // Note: This updates the window display 
 	waitKey(DELAY);
 }
 
-//
 // Move the pen to the given coordinates without leaving a mark
-// 
 // Note (0,0)     refers to the upper left corner
 //      (500,500) refers to the bottom right corner  
-//
 void changePosition(int x, int y)
 {
 	_curPosition.x = x;
@@ -61,11 +58,9 @@ void changeDirection(int direction)
 	_direction = direction;
 }
 
-//
 // Moves the pen forward the given number of pixels
 // Note leaves a mark creating a line from the previous point
 // to the new point
-//
 void moveForward(int nPixels)
 {
 	int x = static_cast<int>(round(nPixels * cos(degToRad(_direction))));
